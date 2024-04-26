@@ -1,0 +1,43 @@
+{
+  "name": "react-use-img",
+  "version": "1.0.0",
+  "description": "A hook for lazy loading images in React",
+  "author": "Vasco Botelho",
+  "license": "MIT",
+  "repository": "vascobotelho/react-use-img",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.5.0",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.23",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "image",
+    "react",
+    "next",
+    "hook",
+    "lazy",
+    "load",
+    "typescript"
+  ],
+  "engines": {
+    "node": ">=16",
+    "npm": ">=7"
+  }
+}
